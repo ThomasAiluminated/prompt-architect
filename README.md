@@ -2,6 +2,8 @@
 
 **Een Claude-skill die een ruwe, vage vraag omzet in een sterke prompt die je meteen kunt gebruiken.**
 
+🇬🇧 [English version](README.en.md) · 📄 [Voorbeelden](examples/)
+
 Je typt in één zin wat je wilt ("maak een prompt om van een wetenschappelijk artikel een LinkedIn-post te maken") en krijgt een uitgewerkte, herbruikbare prompt terug. Die prompt zit vol technieken waarvan bekend is dat ze bij Claude het beste resultaat geven.
 
 *English summary: a Claude skill that turns a rough one-line request into a well-structured, reusable, ready-to-paste prompt for Claude. It works in Dutch, French and English.*
@@ -33,7 +35,14 @@ Je typt in één zin wat je wilt ("maak een prompt om van een wetenschappelijk a
 
 Voor wie Claude al regelmatig gebruikt voor professioneel werk (onderzoek, schrijven, keynotes, projectvoorstellen, nieuwsbrieven, lesmateriaal) en sneller een sterke prompt wil, zonder elke keer van nul te beginnen.
 
-Werk je in het onderwijs en wil je prompts die ook in ChatGPT, Gemini of Copilot werken, met didactische uitleg erbij? Kijk dan naar [Edu Prompt Coach](https://github.com/ThomasAiluminated/edu-prompt-coach).
+Deze skill hoort bij **[Claude Skills for Education](https://github.com/ThomasAiluminated/claude-skills-for-education)**, een open reeks voor onderwijs en L&D:
+- [Edu Prompt Coach](https://github.com/ThomasAiluminated/edu-prompt-coach): prompts voor leerkrachten, met uitleg waarom ze werken
+- [Lesson Designer](https://github.com/ThomasAiluminated/lesson-designer): lessen ontwerpen van leerdoel tot exit-check
+- [Rubric Builder](https://github.com/ThomasAiluminated/rubric-builder): beoordelingsrubrics met observeerbare niveaus
+- [Assessment Item Writer](https://github.com/ThomasAiluminated/assessment-item-writer): toets- en examenvragen met sleutel en feedback
+- [Feedback Writer](https://github.com/ThomasAiluminated/feedback-writer): specifieke, haalbare feedback op leerlingenwerk
+- [Inclusive Lesson Adapter](https://github.com/ThomasAiluminated/inclusive-lesson-adapter): lesmateriaal toegankelijk maken met UDL
+- [Learning Program Designer](https://github.com/ThomasAiluminated/learning-program-designer): opleidingen en leertrajecten ontwerpen
 
 ## Installeren
 
@@ -51,6 +60,7 @@ Daarna volstaat een gewone vraag, zoals *"schrijf een prompt om interviews te an
 ```
 prompt-architect/
 └── SKILL.md            # de volledige instructies van de skill
+examples/                 # voorbeelden van input en output
 prompt-architect.skill  # installeerbaar pakket
 ```
 
